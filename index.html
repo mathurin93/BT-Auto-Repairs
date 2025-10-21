@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Auto Repairs Inc. - 40+ Years of Expertise</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+            /* Light background for the overall page */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#0f172a',    /* Dark Navy/Slate for headers */
+                        'secondary': '#facc15', /* Amber/Yellow for accents (like tools/oil) */
+                        'gray-dark': '#334155', /* Dark Gray for text */
+                        'gray-light': '#94a3b8', /* Light Gray for secondary text */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-primary antialiased">
+
+    <!-- Header / Navigation Bar -->
+    <header class="bg-primary text-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Business Name -->
+            <div class="flex items-center space-x-3">
+                <!-- Simple SVG wrench icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-secondary" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-3.77 3.77a6 6 0 0 1-7.94-7.94l3.77-3.77a1 1 0 0 0 0-1.4l1.6-1.6a1 1 0 0 0 1.4 0l3.77 3.77 1.6-1.6a1 1 0 0 0 0-1.4l-.3-.3a1 1 0 0 0-1.4 0l-1.6 1.6-1.6-1.6a1 1 0 0 0-1.4 0L6 7.6l1.6 1.6a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l1.6-1.6 1.6 1.6a1 1 0 0 0 1.4 0l1.6-1.6a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0z" />
+                </svg>
+                <span class="text-xl font-bold tracking-tight">BT Auto Repairs Inc.</span>
+            </div>
+            <!-- Contact Info for Desktop -->
+            <div class="hidden md:flex space-x-6 text-sm">
+                <a href="tel:9054632243" class="hover:text-secondary transition duration-300">Tel: 905-463-2243</a>
+                <a href="tel:4168181162" class="hover:text-secondary transition duration-300">Cell: 416-818-1162</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section: Experience Highlight -->
+        <section class="bg-gray-800 text-white py-20 md:py-32 shadow-xl">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <p class="text-secondary text-base font-semibold uppercase tracking-widest mb-2">Honesty. Quality.
+                    Experience.</p>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+                    Expert Auto Repair in Brampton
+                </h1>
+                <p class="text-2xl sm:text-3xl font-light text-gray-light mt-6">
+                    Trust Byron Thomas, a master mechanic with over 40 years of experience.
+                </p>
+                <div class="mt-8">
+                    <a href="#contact"
+                        class="inline-block bg-secondary text-primary font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-400 transition duration-300 transform hover:scale-105">
+                        Book Your Service Today
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 md:py-24 bg-white">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-primary">Our Complete Mechanical
+                    Services</h2>
+
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+
+                    <!-- Core Services Card -->
+                    <div
+                        class="bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-secondary transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-dark">Maintenance & Essential Care</h3>
+                        <p class="text-gray-700 mb-4">
+                            Keep your vehicle running smoothly with essential routine services performed by experts.
+                        </p>
+                        <ul class="space-y-3 text-lg font-medium list-none pl-0">
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Oil Changes
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Tune Ups
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Tire Service & Installation
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Brake Service & Repair
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Specialized Services Card -->
+                    <div
+                        class="bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-secondary transition duration-300 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-dark">Diagnostics & Advanced Repair</h3>
+                        <p class="text-gray-700 mb-4">
+                            We handle both domestic and imported vehicles with precision and care.
+                        </p>
+                        <ul class="space-y-3 text-lg font-medium list-none pl-0">
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Computer Scanning & Engine Diagnostics
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Exhaust System Repair
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Drive on Safety Inspections
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-secondary mr-3">&#10003;</span> Complete Mechanical Services
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Guarantee/Mission Statement Section -->
+        <section class="bg-primary text-white py-12 md:py-16">
+            <div class="max-w-3xl mx-auto px-6 text-center">
+                <h3 class="text-2xl sm:text-3xl font-bold mb-4">Customer Satisfaction is Our No.1 Priority</h3>
+                <p class="text-lg text-gray-light">
+                    As a business run by Byron Thomas, a mechanic for over four decades, you can expect integrity,
+                    expertise, and a commitment to quality in every repair.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section id="contact" class="py-16 md:py-24 bg-gray-100">
+            <div class="max-w-xl mx-auto px-6 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-primary">Get in Touch</h2>
+
+                <div class="bg-white p-8 rounded-xl shadow-2xl space-y-6">
+                    <!-- Location & Map -->
+                    <div class="text-center">
+                        <p class="text-gray-light uppercase tracking-wider mb-3">Our Location</p>
+                        <p class="text-xl font-semibold text-gray-dark mb-4">
+                            21 Hale Road, Unit 4, Brampton, ON L6W 3J9
+                        </p>
+                        <!-- Embedded Google Map -->
+                        <div class="relative h-64 w-full rounded-xl overflow-hidden shadow-inner mb-4">
+                            <iframe
+                                src="https://maps.google.com/maps?q=21 Hale Road, Unit 4, Brampton, ON L6W 3J9&z=15&output=embed"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <!-- Link/Button to open in full Google Maps for directions -->
+                        <a href="https://www.google.com/maps/search/21+Hale+Road,+Unit+4,+Brampton,+ON+L6W+3J9"
+                            target="_blank"
+                            class="inline-block bg-primary text-white font-bold py-2 px-6 rounded-full shadow-lg hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02]">
+                            Open in Google Maps
+                        </a>
+                    </div>
+
+                    <!-- Phone Numbers -->
+                    <div
+                        class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 border-t pt-6">
+                        <!-- Tel Phone -->
+                        <div>
+                            <p class="text-gray-light uppercase tracking-wider mb-1">Office</p>
+                            <a href="tel:9054632243"
+                                class="text-2xl font-bold text-primary hover:text-secondary transition duration-300">
+                                905-463-2243
+                            </a>
+                        </div>
+                        <!-- Cell Phone -->
+                        <div>
+                            <p class="text-gray-light uppercase tracking-wider mb-1">Mobile/After Hours</p>
+                            <a href="tel:4168181162"
+                                class="text-2xl font-bold text-primary hover:text-secondary transition duration-300">
+                                416-818-1162
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="border-t pt-6">
+                        <p class="text-gray-light uppercase tracking-wider mb-1">Email</p>
+                        <a href="mailto:btautorepair@yahoo.com"
+                            class="text-xl font-medium text-primary hover:text-secondary transition duration-300">
+                            btautorepair@yahoo.com
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-6 text-center text-sm text-gray-light">
+            &copy; <span id="current-year"></span> BT Auto Repairs Inc. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Simple JS to dynamically set the current year -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
